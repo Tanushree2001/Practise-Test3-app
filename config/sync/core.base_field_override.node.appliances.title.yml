@@ -1,0 +1,18 @@
+uuid: 9614020e-9bb5-4cc3-848e-3c5c82aed75d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.appliances
+id: node.appliances.title
+field_name: title
+entity_type: node
+bundle: appliances
+label: Appliances
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

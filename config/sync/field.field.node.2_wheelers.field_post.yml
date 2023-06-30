@@ -1,0 +1,23 @@
+uuid: 1314bb3c-1ae4-49ac-a24c-f64a7c8182cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_post
+    - node.type.2_wheelers
+id: node.2_wheelers.field_post
+field_name: field_post
+entity_type: node
+bundle: 2_wheelers
+label: Post
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

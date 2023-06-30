@@ -1,0 +1,19 @@
+uuid: 83bf9ba2-2017-431e-b350-319831d8ed5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_name_two_wheelers
+    - node.type.2_wheelers
+id: node.2_wheelers.field_name_two_wheelers
+field_name: field_name_two_wheelers
+entity_type: node
+bundle: 2_wheelers
+label: name-two-wheelers
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

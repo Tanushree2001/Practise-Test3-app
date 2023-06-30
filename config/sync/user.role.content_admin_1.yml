@@ -1,0 +1,20 @@
+uuid: 98c0cedb-1fc2-4ec4-98ba-cfbca0adc3b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.appliances
+    - node.type.electronics
+    - node.type.grocery
+  module:
+    - node
+    - system
+id: content_admin_1
+label: 'Content admin 1'
+weight: 4
+is_admin: null
+permissions:
+  - 'administer menu'
+  - 'create appliances content'
+  - 'create electronics content'
+  - 'create grocery content'

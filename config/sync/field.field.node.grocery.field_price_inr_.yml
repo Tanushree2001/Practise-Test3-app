@@ -1,0 +1,19 @@
+uuid: c2a95844-178b-4853-89f5-955be8fee44a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price_inr_
+    - node.type.grocery
+id: node.grocery.field_price_inr_
+field_name: field_price_inr_
+entity_type: node
+bundle: grocery
+label: Price(INR)
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

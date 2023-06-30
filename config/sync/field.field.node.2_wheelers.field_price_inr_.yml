@@ -1,0 +1,19 @@
+uuid: eaff129d-2248-4fc6-aedd-86fe37e924a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price_inr_
+    - node.type.2_wheelers
+id: node.2_wheelers.field_price_inr_
+field_name: field_price_inr_
+entity_type: node
+bundle: 2_wheelers
+label: Price(INR)
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: 6bdf5fac-1358-4453-88ee-936fcb860f0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price_inr_
+    - node.type.fashion
+id: node.fashion.field_price_inr_
+field_name: field_price_inr_
+entity_type: node
+bundle: fashion
+label: Price(INR)
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

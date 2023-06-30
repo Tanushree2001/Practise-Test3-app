@@ -1,0 +1,21 @@
+uuid: 0a05971b-353a-425b-8c0e-0e1f4e88f883
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_small_description
+    - node.type.grocery
+  module:
+    - text
+id: node.grocery.field_small_description
+field_name: field_small_description
+entity_type: node
+bundle: grocery
+label: 'Small Description'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

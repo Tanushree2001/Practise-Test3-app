@@ -1,0 +1,16 @@
+uuid: 8afd726e-cbab-44f1-83f8-b638265e538e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.2_wheelers
+  module:
+    - node
+    - system
+id: content_admin_3
+label: 'Content admin 3'
+weight: 6
+is_admin: null
+permissions:
+  - 'administer menu'
+  - 'create 2_wheelers content'

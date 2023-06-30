@@ -1,0 +1,21 @@
+uuid: b35f21c6-51a1-4d08-ac0a-22d84b0eea6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_small_description
+    - node.type.2_wheelers
+  module:
+    - text
+id: node.2_wheelers.field_small_description
+field_name: field_small_description
+entity_type: node
+bundle: 2_wheelers
+label: 'Small Description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

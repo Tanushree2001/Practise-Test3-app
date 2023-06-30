@@ -1,0 +1,78 @@
+uuid: 07ef5026-a6e2-40f0-af74-84bca4935b27
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.electronics.body
+    - field.field.node.electronics.field_date
+    - field.field.node.electronics.field_electronics_image
+    - field.field.node.electronics.field_electronics_name
+    - field.field.node.electronics.field_price_inr_
+    - field.field.node.electronics.field_small_description
+    - node.type.electronics
+  module:
+    - datetime
+    - image
+    - text
+    - user
+id: node.electronics.default
+targetEntityType: node
+bundle: electronics
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_electronics_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_electronics_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_price_inr_:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_small_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

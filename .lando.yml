@@ -1,0 +1,4 @@
+name: practise-test3-app
+recipe: drupal10
+config:
+  webroot: web

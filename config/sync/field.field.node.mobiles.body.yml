@@ -1,0 +1,23 @@
+uuid: fd9d2f04-0248-4527-9ad8-db5fe33346a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.mobiles
+  module:
+    - text
+id: node.mobiles.body
+field_name: body
+entity_type: node
+bundle: mobiles
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

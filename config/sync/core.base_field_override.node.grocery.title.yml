@@ -1,0 +1,18 @@
+uuid: 8dce7203-7534-4b23-9ec0-5e04b23a6075
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.grocery
+id: node.grocery.title
+field_name: title
+entity_type: node
+bundle: grocery
+label: Grocery
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
