@@ -1,0 +1,21 @@
+uuid: 942eaac2-20b2-4d6d-8bff-01638f45050f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.2_wheelers
+  module:
+    - datetime
+id: node.2_wheelers.field_date
+field_name: field_date
+entity_type: node
+bundle: 2_wheelers
+label: Date
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

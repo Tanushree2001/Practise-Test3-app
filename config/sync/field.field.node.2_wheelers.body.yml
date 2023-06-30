@@ -1,0 +1,23 @@
+uuid: 13ec1b11-17c1-4768-81f0-1787e2b21914
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.2_wheelers
+  module:
+    - text
+id: node.2_wheelers.body
+field_name: body
+entity_type: node
+bundle: 2_wheelers
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

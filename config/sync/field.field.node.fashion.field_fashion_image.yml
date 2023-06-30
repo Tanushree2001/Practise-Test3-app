@@ -1,0 +1,38 @@
+uuid: f479f10b-25bc-4a3a-8700-f06185b3a87d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fashion_image
+    - node.type.fashion
+  module:
+    - image
+id: node.fashion.field_fashion_image
+field_name: field_fashion_image
+entity_type: node
+bundle: fashion
+label: Fashion-Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

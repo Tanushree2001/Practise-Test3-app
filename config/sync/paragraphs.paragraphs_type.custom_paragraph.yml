@@ -1,0 +1,10 @@
+uuid: d058fa70-2003-4028-b13d-4632ee25ed47
+langcode: en
+status: true
+dependencies: {  }
+id: custom_paragraph
+label: 'Custom Paragraph'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

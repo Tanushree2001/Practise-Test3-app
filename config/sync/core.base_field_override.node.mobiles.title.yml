@@ -1,0 +1,18 @@
+uuid: cbb49919-37aa-4bdb-b4a3-9119885dce25
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.mobiles
+id: node.mobiles.title
+field_name: title
+entity_type: node
+bundle: mobiles
+label: Mobiles
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: 04a422f0-1a37-4307-a576-0ca464066eb4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.appliances
+  module:
+    - datetime
+id: node.appliances.field_date
+field_name: field_date
+entity_type: node
+bundle: appliances
+label: Date
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

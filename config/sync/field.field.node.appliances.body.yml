@@ -1,0 +1,23 @@
+uuid: e264f8d3-6599-4591-a344-e0c3251bde9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.appliances
+  module:
+    - text
+id: node.appliances.body
+field_name: body
+entity_type: node
+bundle: appliances
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

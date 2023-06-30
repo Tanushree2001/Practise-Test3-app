@@ -1,0 +1,31 @@
+uuid: d5b75def-5605-43d9-95be-b800d083af01
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_multi_image_banner
+    - node.type.page
+    - paragraphs.paragraphs_type.custom_paragraph
+  module:
+    - entity_reference_revisions
+id: node.page.field_multi_image_banner
+field_name: field_multi_image_banner
+entity_type: node
+bundle: page
+label: 'Multi-Image Banner'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      custom_paragraph: custom_paragraph
+    negate: 0
+    target_bundles_drag_drop:
+      custom_paragraph:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

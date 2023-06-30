@@ -1,0 +1,21 @@
+uuid: ae906bd2-c915-49e4-8569-02bbf0ce7604
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.fashion
+  module:
+    - datetime
+id: node.fashion.field_date
+field_name: field_date
+entity_type: node
+bundle: fashion
+label: Date
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

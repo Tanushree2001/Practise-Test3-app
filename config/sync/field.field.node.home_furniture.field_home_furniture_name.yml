@@ -1,0 +1,19 @@
+uuid: 3cdf2042-c9cd-4cc3-ac13-3b7982e2a8e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_home_furniture_name
+    - node.type.home_furniture
+id: node.home_furniture.field_home_furniture_name
+field_name: field_home_furniture_name
+entity_type: node
+bundle: home_furniture
+label: Home-Furniture-name
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

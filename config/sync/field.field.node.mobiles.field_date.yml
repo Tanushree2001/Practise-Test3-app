@@ -1,0 +1,21 @@
+uuid: f45017b5-f543-481e-9cc2-a6013c1475bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.mobiles
+  module:
+    - datetime
+id: node.mobiles.field_date
+field_name: field_date
+entity_type: node
+bundle: mobiles
+label: Date
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

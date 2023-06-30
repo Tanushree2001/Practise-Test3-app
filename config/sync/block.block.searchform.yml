@@ -1,0 +1,35 @@
+uuid: d15c65b8-21eb-45b5-a4dc-c1aa273f8606
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+    - user
+  theme:
+    - bootstrap
+id: searchform
+theme: bootstrap
+region: navigation
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous
+      authenticated: authenticated
+      content_editor: content_editor
+      administrator: administrator
+      content_admin_1: content_admin_1
+      content_admin_2: content_admin_2
+      content_admin_3: content_admin_3

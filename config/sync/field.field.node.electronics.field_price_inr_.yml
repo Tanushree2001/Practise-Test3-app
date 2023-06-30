@@ -1,0 +1,19 @@
+uuid: 6d3a7a14-90d3-4f8a-8a18-29a3c988e501
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price_inr_
+    - node.type.electronics
+id: node.electronics.field_price_inr_
+field_name: field_price_inr_
+entity_type: node
+bundle: electronics
+label: Price(INR)
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

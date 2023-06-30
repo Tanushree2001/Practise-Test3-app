@@ -1,0 +1,42 @@
+uuid: 0dded3eb-ff6d-4478-87fe-4b956e3d35d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.appliances.body
+    - field.field.node.appliances.field_date
+    - field.field.node.appliances.field_image_appliance
+    - field.field.node.appliances.field_name_appliance
+    - field.field.node.appliances.field_post
+    - field.field.node.appliances.field_price_inr_
+    - field.field.node.appliances.field_small_description
+    - node.type.appliances
+  module:
+    - text
+    - user
+id: node.appliances.teaser
+targetEntityType: node
+bundle: appliances
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_date: true
+  field_image_appliance: true
+  field_name_appliance: true
+  field_post: true
+  field_price_inr_: true
+  field_small_description: true

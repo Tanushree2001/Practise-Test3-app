@@ -1,0 +1,7 @@
+uuid: 233e0176-0ff5-4e91-802b-0b9033146845
+langcode: en
+status: false
+dependencies: {  }
+formId: node_home_furniture_form
+captchaType: default
+label: node_home_furniture_form

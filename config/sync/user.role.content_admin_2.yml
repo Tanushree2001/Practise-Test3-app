@@ -1,0 +1,20 @@
+uuid: eb74d0a7-090f-4080-9017-ef1b9f85066d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.fashion
+    - node.type.home_furniture
+    - node.type.mobiles
+  module:
+    - node
+    - system
+id: content_admin_2
+label: 'Content admin 2'
+weight: 5
+is_admin: null
+permissions:
+  - 'administer menu'
+  - 'create fashion content'
+  - 'create home_furniture content'
+  - 'create mobiles content'

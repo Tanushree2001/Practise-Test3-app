@@ -1,0 +1,18 @@
+uuid: 97dfdc91-1558-4996-85ca-bb5e1bb55038
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.electronics
+id: node.electronics.title
+field_name: title
+entity_type: node
+bundle: electronics
+label: Electronics
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

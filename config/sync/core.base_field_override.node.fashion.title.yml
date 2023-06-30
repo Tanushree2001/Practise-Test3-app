@@ -1,0 +1,18 @@
+uuid: 984b1e14-dbb9-4d45-b97b-ba0a5289fb17
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.fashion
+id: node.fashion.title
+field_name: title
+entity_type: node
+bundle: fashion
+label: Fashion
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

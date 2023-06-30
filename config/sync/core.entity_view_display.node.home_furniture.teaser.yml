@@ -1,0 +1,40 @@
+uuid: e4e06936-1695-46e7-bc26-a37d934c9a7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.home_furniture.body
+    - field.field.node.home_furniture.field_date
+    - field.field.node.home_furniture.field_home_furniture_image
+    - field.field.node.home_furniture.field_home_furniture_name
+    - field.field.node.home_furniture.field_price_inr_
+    - field.field.node.home_furniture.field_small_description
+    - node.type.home_furniture
+  module:
+    - text
+    - user
+id: node.home_furniture.teaser
+targetEntityType: node
+bundle: home_furniture
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_date: true
+  field_home_furniture_image: true
+  field_home_furniture_name: true
+  field_price_inr_: true
+  field_small_description: true

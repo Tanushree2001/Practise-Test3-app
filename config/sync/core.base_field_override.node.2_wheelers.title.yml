@@ -1,0 +1,18 @@
+uuid: 8767f28a-f7d0-4e55-9fdd-d604a9ac4e14
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.2_wheelers
+id: node.2_wheelers.title
+field_name: title
+entity_type: node
+bundle: 2_wheelers
+label: '2 wheelers'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: 2f0ba489-e4cd-4b42-aac7-3fe653b25213
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price_inr_
+    - node.type.mobiles
+id: node.mobiles.field_price_inr_
+field_name: field_price_inr_
+entity_type: node
+bundle: mobiles
+label: Price(INR)
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

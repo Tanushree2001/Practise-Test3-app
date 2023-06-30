@@ -1,0 +1,18 @@
+uuid: b7210f9a-1c39-4250-b1ea-658541f7ae77
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.home_furniture
+id: node.home_furniture.title
+field_name: title
+entity_type: node
+bundle: home_furniture
+label: 'Home & Furniture'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

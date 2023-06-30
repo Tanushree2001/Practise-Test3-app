@@ -1,0 +1,40 @@
+uuid: 98c5acea-ab23-418a-af95-6d651dc0ffca
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.mobiles.body
+    - field.field.node.mobiles.field_date
+    - field.field.node.mobiles.field_mobile_image
+    - field.field.node.mobiles.field_mobile_name
+    - field.field.node.mobiles.field_price_inr_
+    - field.field.node.mobiles.field_small_description
+    - node.type.mobiles
+  module:
+    - text
+    - user
+id: node.mobiles.teaser
+targetEntityType: node
+bundle: mobiles
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_date: true
+  field_mobile_image: true
+  field_mobile_name: true
+  field_price_inr_: true
+  field_small_description: true

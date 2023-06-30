@@ -1,0 +1,21 @@
+uuid: ac19151b-c675-4966-bfce-cfb675899fc7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.electronics
+  module:
+    - datetime
+id: node.electronics.field_date
+field_name: field_date
+entity_type: node
+bundle: electronics
+label: Date
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,21 @@
+uuid: 95302a12-f6e0-48b6-a518-4a2dcc09f51b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.grocery
+  module:
+    - datetime
+id: node.grocery.field_date
+field_name: field_date
+entity_type: node
+bundle: grocery
+label: Date
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime
